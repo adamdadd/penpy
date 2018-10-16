@@ -2,7 +2,9 @@
 A collection of useful python networking examples that can be used for pen testing.
 
 ## TCP_client.py
-A simple TCP client.
+![TCP_client](https://github.com/adamdadd/penpy/img/TCP_client.png)
+
+Now to write a simple TCP client.
 ```python
 import socket
 
@@ -54,6 +56,7 @@ print(data)
 <i>SOCK_DGRAM:</i>  
 
 ## TCP_server.py
+![TCP_server](https://github.com/adamdadd/penpy/img/TCP_server.png)
 A simple TCP server. Works with TCP_client.py 
 ```python
 import socket

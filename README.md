@@ -2,7 +2,7 @@
 A collection of useful python networking examples that can be used for pen testing.
 
 ## Documentation
-Each utility is listed below with 
+Each utility is listed below with code and explanations as required.
 
 ### TCP_client.py
 ![TCP_client](https://github.com/adamdadd/penpy/blob/master/img/TCP_client.png)

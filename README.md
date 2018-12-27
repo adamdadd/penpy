@@ -1,7 +1,10 @@
 # penpy - Python Scripts for Networking and Pen Tests
 A collection of useful python networking examples that can be used for pen testing.
 
-## TCP_client.py
+## Documentation
+Each utility is listed below with 
+
+### TCP_client.py
 ![TCP_client](https://github.com/adamdadd/penpy/blob/master/img/TCP_client.png)
 
 Now to write a simple TCP client.
@@ -25,14 +28,14 @@ print(response)
 <i>AF_INET:</i> Using IPv4 address/hostname.\
 <i>SOCK_STREAM:</i> This is a TCP client.
 
-### Socket Assumptions
+#### Socket Assumptions
 <ol>
 <li> The connection will always succeed.
 <li> Server expects data from client first (rather than response).
 <li> Data from server will be sent at an appropriate time. 
 </ol>
 
-## UDP_client.py
+### UDP_client.py
 A simple UDP client.
 
 UDP is much like it's TCP counterpart but UDP is a connectionless protocol so some changes need to be made...
@@ -55,7 +58,7 @@ print(data)
 ```
 <i>SOCK_DGRAM:</i>  
 
-## TCP_server.py
+### TCP_server.py
 ![TCP_server](https://github.com/adamdadd/penpy/blob/master/img/TCP_server.png)
 A simple TCP server. Works with TCP_client.py 
 ```python
@@ -93,7 +96,14 @@ while True:
     client_handler = threading.Thread(target=handle_client, args=(client,))
     client_handler.start()
 ```
-## Netkitten.py
+### Netkitten.py
 A netcat clone written in python. Useful when unable to use netcat in system that it has been disabled.
 
-## TCP_proxy.py
+### TCP_proxy.py
+
+## License
+GNUv3.0 License. 
+[License](/License)
+
+## Contact
+If you have any questions or want to know more  please contact me on adam-dad@hotmail.co.uk

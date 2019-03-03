@@ -102,8 +102,7 @@ A netcat clone written in python. Useful when unable to use netcat in system tha
 ### TCP_proxy.py
 
 ## License
-GNUv3.0 License. 
-[License](/License)
+[GNUv3.0 License](/License)
 
 ## Contact
 If you have any questions or want to know more  please contact me on adam-dad@hotmail.co.uk
